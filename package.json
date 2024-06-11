@@ -32,7 +32,8 @@
     "body-parser": "^1.17.x",
     "bunyan-slack": "0.0.10",
     "convict": "^4.3.0",
-    "express": "^4.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
     "express-brute": "^0.6.0",
     "express-github-webhook": "^1.0.5",
     "express-recaptcha": "^2.1.0",
@@ -86,5 +87,11 @@
     "ignore": [
       "test/**/*"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": []
 }
